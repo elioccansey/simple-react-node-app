@@ -22,7 +22,7 @@ const ImageUploader = () => {
 
       // Send POST request to API Gateway
       const response = await axios.post(
-        'your-api-url',
+        'https://uysvdvpfg4.execute-api.us-east-1.amazonaws.com/dev/upload',
         { filename, contentType, email }
       );
 
